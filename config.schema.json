@@ -1,0 +1,58 @@
+{
+  "pluginAlias": "Flume",
+  "pluginType": "accessory",
+  "singular": true,
+  "headerDisplay": "[Flume Water Monitor](https://flumetech.com) plugin for Homebridge.",
+  "schema": {
+    "type": "object",
+    "properties": {
+      "name": {
+        "title": "Accessory Name",
+        "type": "string",
+        "required": true,
+        "default": "Flume Water Monitor",
+        "description": "The name used for the Flume water monitor in HomeKit"
+      },
+      "username": {
+        "title": "Username",
+        "type": "string",
+        "required": true,
+        "description": "Your username for acessing the Flume site at https://portal.flumetech.com/ (required)"
+      },
+      "password": {
+        "title": "Password",
+        "type": "string",
+        "required": true,
+        "description": "Your password for acessing the Flume site (required)"
+      },
+      "client_id": {
+        "title": "Client ID",
+        "type": "string",
+        "placeholder": "12345678901234567890",
+        "required": true,
+        "description": "Your Client ID for API access, found in Settings on the Flume site (required)"
+      },
+      "client_secret": {
+        "title": "Client Secret",
+        "type": "string",
+        "placeholder": "1234567890",
+        "required": true,
+        "description": "Your Client Secret for API access, found in Settings on the Flume site (required)"
+      },
+      "polling_minutes": {
+        "title": "Update Interval",
+        "type": "integer",
+        "default": "1",
+        "required": false,
+        "description": "Number of minutes between updates. Defaults to 1 minute. API has a cap of 120 calls per hour. (optional)"
+      },
+      "handicap": {
+        "title": "Adjustment for False Positives",
+        "type": "float",
+        "default": "0.0",
+        "required": false,
+        "description": "Set to ignore a steady water draw below this value. Defaults to zero (0.0) gallons. (optional)"
+      }
+    }
+  }
+}
