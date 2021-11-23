@@ -3,7 +3,7 @@
   "alias": "Flume",
   "version": "0.1.0",
   "author": {
-    "name": "Darrin Thomas",
+    "name": "Ben Potter",
     "email": "bwp91@icloud.com"
   },
   "description": "Homebridge plugin to integrate Flume devices into HomeKit.",
@@ -23,7 +23,7 @@
     "water leak detector"
   ],
   "engines": {
-    "homebridge": "^1.3.6",
+    "homebridge": "^1.3.8",
     "node": "^14.18.1 || ^16.13.0"
   },
   "repository": {
