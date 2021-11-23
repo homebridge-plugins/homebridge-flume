@@ -17,39 +17,39 @@
         "title": "Username",
         "type": "string",
         "required": true,
-        "description": "Your username for accessing the Flume site at https://portal.flumetech.com"
+        "description": "Your Flume username."
       },
       "password": {
         "title": "Password",
         "type": "string",
         "required": true,
-        "description": "Your password for accessing the Flume site"
+        "description": "Your Flume password."
       },
-      "client_id": {
+      "clientId": {
         "title": "Client ID",
         "type": "string",
-        "placeholder": "12345678901234567890",
+        "placeholder": "1234567890ABCD",
         "required": true,
-        "description": "Your Client ID for API access, found in Settings on the Flume site"
+        "description": "Your Flume Client ID, found at https://portal.flumetech.com."
       },
-      "client_secret": {
+      "clientSecret": {
         "title": "Client Secret",
         "type": "string",
-        "placeholder": "1234567890",
+        "placeholder": "1234567890ABCDEFGHIJ",
         "required": true,
-        "description": "Your Client Secret for API access, found in Settings on the Flume site"
+        "description": "Your Flume Client Secret, found at https://portal.flumetech.com."
       },
       "refreshInterval": {
-        "title": "Refresh interval",
+        "title": "Refresh Interval",
         "type": "integer",
         "placeholder": 1,
-        "description": "Number of minutes between updates. API has a cap of 120 calls per hour."
+        "description": "Number of minutes between updates. Must be 1 or more."
       },
       "threshold": {
-        "title": "Adjustment for False Positives",
+        "title": "Threshold",
         "type": "number",
         "placeholder": 0,
-        "description": "Set to ignore a steady water draw below this value (gallons)."
+        "description": "Ignore a steady water draw below this value in gallons per refresh interval. Must be 0 or more."
       },
       "disableDeviceLogging": {
         "type": "boolean",
@@ -72,7 +72,7 @@
     {
       "type": "fieldset",
       "title": "Required Settings",
-      "items": ["username", "password", "client_id", "client_secret"]
+      "items": ["username", "password", "clientId", "clientSecret"]
     },
     {
       "type": "fieldset",
