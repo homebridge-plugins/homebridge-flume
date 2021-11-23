@@ -5,24 +5,20 @@
 Configuration sample:
 
 ```
-"accessories": [
-  {
-    "accessory": "Flume",
-    "name": "Flume Water Monitor",
-    "username": "user@domain.com",
-    "password": "password",
-    "client_id": "12345678901234567890",
-    "client_secret": "1234567890",
-    "polling_minutes": 1,
-    "handicap": 0.1,
-    "valveType": 3
-  }
-]
+{
+  "name": "Flume Water Monitor",
+  "username": "user@domain.com",
+  "password": "password",
+  "client_id": "12345678901234567890",
+  "client_secret": "1234567890",
+  "polling_minutes": 1,
+  "handicap": 0.1,
+  "platform": "Flume"
+}
 ```
 
 Fields:
 
-- "accessory": Must always be "Flume" (required)
 - "username": Your username for accessing the Flume site at https://portal.flumetech.com/ (required)
 - "password": Your password for accessing the Flume site (required)
 - "client_id": Your Client ID for API access, found in Settings on the Flume site (required)
