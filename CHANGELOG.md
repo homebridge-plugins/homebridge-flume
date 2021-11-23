@@ -2,6 +2,16 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 0.5.0 (2021-11-23)
+
+### Added
+
+- Make use of the debug logging option for HTTP responses
+
+### Changed
+
+- `client_id` and `client_secret` config options changed to `clientId` and `clientSecret` for consistency
+
 ## 0.4.0 (2021-11-23)
 
 ### Added
