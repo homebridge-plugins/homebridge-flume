@@ -2,7 +2,7 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
-## BETA
+## 0.4.0 (2021-11-23)
 
 ### Added
 
