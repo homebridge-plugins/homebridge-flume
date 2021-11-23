@@ -11,8 +11,8 @@ Configuration sample:
   "password": "password",
   "client_id": "12345678901234567890",
   "client_secret": "1234567890",
-  "polling_minutes": 1,
-  "handicap": 0.1,
+  "refreshInterval": 1,
+  "threshold": 0.1,
   "platform": "Flume"
 }
 ```
@@ -23,8 +23,8 @@ Fields:
 - "password": Your password for accessing the Flume site (required)
 - "client_id": Your Client ID for API access, found in Settings on the Flume site (required)
 - "client_secret": Your Client Secret for API access, found in Settings on the Flume site (required)
-- "polling_minutes": Number of minutes between updates. Defaults to 1 minute. API has a cap of 120 calls per hour. (optional)
-- "handicap": Set to ignore a steady water draw below this value. Defaults to zero (0.0) gallons. (optional)
+- "refreshInterval": Number of minutes between updates. Defaults to 1 minute. API has a cap of 120 calls per hour. (optional)
+- "threshold": Set to ignore a steady water draw below this value. Defaults to zero (0.0) gallons. (optional)
 
 # Retrieving API Login Credentials
 

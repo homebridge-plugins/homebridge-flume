@@ -39,18 +39,53 @@
         "required": true,
         "description": "Your Client Secret for API access, found in Settings on the Flume site"
       },
-      "polling_minutes": {
-        "title": "Update Interval",
+      "refreshInterval": {
+        "title": "Refresh interval",
         "type": "integer",
         "placeholder": 1,
         "description": "Number of minutes between updates. API has a cap of 120 calls per hour."
       },
-      "handicap": {
+      "threshold": {
         "title": "Adjustment for False Positives",
         "type": "number",
         "placeholder": 0,
         "description": "Set to ignore a steady water draw below this value (gallons)."
-      }
+      },
+      "disableDeviceLogging": {
+          "type": "boolean",
+          "title": "Disable Device Logging",
+          "description": "Global logging setting for accessory status changes. If true then accessory status changes will not be logged."
+        },
+        "debug": {
+          "title": "Debug Logging",
+          "type": "boolean",
+          "description": "Global logging setting for the plugin. If true then debug information will be added to the log."
+        },
+        "disablePlugin": {
+          "title": "Disable Plugin",
+          "type": "boolean",
+          "description": "If true, the plugin will remove all accessories and not load the plugin on restart."
+        }
     }
-  }
+  },
+  "layout": [
+    {
+      "type": "fieldset",
+      "title": "Required Settings",
+      "items": ["username", "password", "client_id", "client_secret"]
+    },
+    {
+      "type": "fieldset",
+      "title": "Optional Settings",
+      "description": "Optional settings for the plugin, including global logging settings.",
+      "expandable": true,
+      "items": [
+        "refreshInterval",
+        "threshold",
+        "disableDeviceLogging",
+        "debug",
+        "disablePlugin"
+      ]
+    }
+  ]
 }
