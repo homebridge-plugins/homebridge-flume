@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## BETA
+
+### Added
+
+- The plugin will remove 'stale' accessories that don't appear in the obtained device list
+
 ## 0.3.1 (2021-11-23)
 
 ### Fixed
