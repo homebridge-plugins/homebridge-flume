@@ -2,6 +2,10 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 0.3.0 (2021-11-22)
+
+Changed some configuration options
+
 ## 0.2.0 (2021-11-22)
 
 Converted from accessory plugin to platform plugin
