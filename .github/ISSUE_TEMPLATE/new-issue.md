@@ -29,11 +29,11 @@ assignees: ''
 
 
 
-* Which version of this plugin (homebridge-thermobit) do you have? Has the issue started since upgrading from a previous version?
+* Which version of this plugin (homebridge-flume) do you have? Has the issue started since upgrading from a previous version?
 
 
 
-* Which Thermobit devices do you have that are causing issues? Please include product models if applicable.
+* Which Flume devices do you have that are causing issues? Please include product models if applicable.
 
 
 
