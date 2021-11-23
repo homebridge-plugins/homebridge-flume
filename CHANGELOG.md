@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 0.3.1 (2021-11-23)
+
+### Fixed
+
+- Some logging references to Thermobit rather than Flume
+
 ## 0.3.0 (2021-11-22)
 
 Changed some configuration options
