@@ -40,7 +40,7 @@
 
 ### Credits
 
-- This is a forked rewrite of the [homebridge-flume-water-sensor](https://www.npmjs.com/package/homebridge-flume-water-sensor) plugin by @weallknowwhoisatfaulthere
+- This is a forked rewrite of the [homebridge-flume-water-sensor](https://www.npmjs.com/package/homebridge-flume-water-sensor) plugin by @weallknowwhoisatfaulthere.
 - To the creators/contributors of [Homebridge](https://homebridge.io) who make this plugin possible.
 
 ### Disclaimer
