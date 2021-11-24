@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 0.7.0 (2021-11-24)
+
+### Added
+
+- `StatusFault` and `StatusLowBattery` characteristics to the `LeakSensor` service
+
 ## 0.6.0 (2021-11-24)
 
 ### Added
