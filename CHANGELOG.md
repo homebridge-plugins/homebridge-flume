@@ -2,6 +2,16 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 0.6.0 (2021-11-24)
+
+### Added
+
+- Leak sensor service
+
+### Changed
+
+- Minimum refresh interval increased to two minutes
+
 ## 0.5.0 (2021-11-23)
 
 ### Added
