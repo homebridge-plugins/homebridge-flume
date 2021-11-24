@@ -42,8 +42,8 @@
       "refreshInterval": {
         "title": "Refresh Interval",
         "type": "integer",
-        "placeholder": 1,
-        "description": "Number of minutes between updates. Must be 1 or more."
+        "placeholder": 2,
+        "description": "Number of minutes between updates. Must be 2 or more."
       },
       "threshold": {
         "title": "Threshold",
