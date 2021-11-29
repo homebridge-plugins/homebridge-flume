@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 1.0.0 (2021-11-29)
+
+### Added
+
+- Plugin logo
+
 ## 0.7.0 (2021-11-24)
 
 ### Added
