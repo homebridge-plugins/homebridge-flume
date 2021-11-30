@@ -2,6 +2,16 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 1.1.0 (2021-11-30)
+
+### Added
+
+- Daily and monthly usage custom characteristics (viewable in HomeKit apps like Eve)
+
+### Removed
+
+- `threshold` configuration option as unused
+
 ## 1.0.0 (2021-11-29)
 
 ### Added

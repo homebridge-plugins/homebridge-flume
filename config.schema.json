@@ -45,12 +45,6 @@
         "placeholder": 2,
         "description": "Number of minutes between updates. Must be 2 or more."
       },
-      "threshold": {
-        "title": "Threshold",
-        "type": "number",
-        "placeholder": 0,
-        "description": "Ignore a steady water draw below this value in gallons per refresh interval. Must be 0 or more."
-      },
       "disableDeviceLogging": {
         "type": "boolean",
         "title": "Disable Device Logging",
@@ -79,7 +73,7 @@
       "title": "Optional Settings",
       "description": "Optional settings for the plugin, including global logging settings.",
       "expandable": true,
-      "items": ["refreshInterval", "threshold", "disableDeviceLogging", "debug", "disablePlugin"]
+      "items": ["refreshInterval", "disableDeviceLogging", "debug", "disablePlugin"]
     }
   ]
 }
