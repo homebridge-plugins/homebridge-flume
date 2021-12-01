@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 1.2.0 (2021-12-01)
+
+### Added
+
+- Previous month usage custom characteristic (viewable in HomeKit apps like Eve)
+
 ## 1.1.0 (2021-11-30)
 
 ### Added
