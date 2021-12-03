@@ -2,6 +2,13 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## UPCOMING
+
+### Changed
+
+- Bump `homebridge` recommended version to v1.3.8
+- Bump `node` recommended versions to v14.18.2 or v16.13.1
+
 ## 1.2.0 (2021-12-01)
 
 ### Added
