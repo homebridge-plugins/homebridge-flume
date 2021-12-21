@@ -39,17 +39,6 @@
         "required": true,
         "description": "Your Flume Client Secret, found at https://portal.flumetech.com."
       },
-      "refreshInterval": {
-        "title": "Refresh Interval",
-        "type": "integer",
-        "placeholder": 2,
-        "description": "Number of minutes between updates. Must be 2 or more."
-      },
-      "disableDeviceLogging": {
-        "type": "boolean",
-        "title": "Disable Device Logging",
-        "description": "Global logging setting for accessory status changes. If true then accessory status changes will not be logged."
-      },
       "debug": {
         "title": "Debug Logging",
         "type": "boolean",
@@ -59,6 +48,17 @@
         "title": "Disable Plugin",
         "type": "boolean",
         "description": "If true, the plugin will remove all accessories and not load the plugin on restart."
+      },
+      "disableDeviceLogging": {
+        "type": "boolean",
+        "title": "Disable Device Logging",
+        "description": "Global logging setting for accessory status changes. If true then accessory status changes will not be logged."
+      },
+      "refreshInterval": {
+        "title": "Refresh Interval",
+        "type": "integer",
+        "placeholder": 2,
+        "description": "Number of minutes between updates. Must be 2 or more."
       }
     }
   },
@@ -66,14 +66,14 @@
     {
       "type": "fieldset",
       "title": "Required Settings",
-      "items": ["username", "password", "clientId", "clientSecret"]
+      "items": ["username", "password", "clientId", "clientSecret", "debug", "disablePlugin"]
     },
     {
       "type": "fieldset",
-      "title": "Optional Settings",
-      "description": "Optional settings for the plugin, including global logging settings.",
+      "title": "Advanced Settings",
+      "description": "Advanced settings for the plugin, including refresh options.",
       "expandable": true,
-      "items": ["refreshInterval", "disableDeviceLogging", "debug", "disablePlugin"]
+      "items": ["disableDeviceLogging", "refreshInterval"]
     }
   ]
 }

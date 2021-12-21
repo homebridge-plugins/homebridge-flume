@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 1.2.2 (2021-12-21)
+
+### Changed
+
+- Some config options rearranged for easier access
+
 ## 1.2.1 (2021-12-08)
 
 ### Changed
