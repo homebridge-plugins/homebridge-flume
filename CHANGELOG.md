@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## BETA
+
+### Changed
+
+- Bump `homebridge` recommended version to v1.3.9
+
 ## 1.2.2 (2021-12-21)
 
 ### Changed
