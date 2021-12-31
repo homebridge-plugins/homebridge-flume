@@ -6,6 +6,7 @@ All notable changes to homebridge-flume will be documented in this file.
 
 ### Changed
 
+- HOOBS certified badge on README
 - Plugin will log HAPNodeJS version on startup
 - Bump `homebridge` recommended version to v1.3.9
 
