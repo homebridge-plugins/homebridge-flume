@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## BETA
+
+### Fixed
+
+- Plugin crash for older versions of Homebridge
+
 ## 1.2.3 (2022-01-03)
 
 ### Changed
