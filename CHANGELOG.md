@@ -2,7 +2,7 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
-## UPCOMING
+## 1.2.6 (2022-02-27)
 
 ### Changed
 
