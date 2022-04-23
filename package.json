@@ -1,7 +1,7 @@
 {
   "name": "homebridge-flume",
   "alias": "Flume",
-  "version": "1.2.7",
+  "version": "1.2.8-beta.0",
   "author": {
     "name": "Ben Potter",
     "email": "bwp91@icloud.com"
@@ -61,10 +61,10 @@
     "axios": "^0.26.1",
     "jwt-decode": "^3.1.2"
   },
-    "devDependencies": {
+  "devDependencies": {
     "eslint-config-airbnb": "^19.0.4",
     "eslint-plugin-import": "^2.26.0",
     "eslint-plugin-sort-exports": "^0.6.0",
     "eslint": "^8.14.0"
-    }
+  }
 }
