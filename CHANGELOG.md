@@ -2,6 +2,13 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 2.0.1 (2022-04-30)
+
+### Changed
+
+- Bump `axios` to v0.27.2
+- Bump `node` recommended versions to v14.19.1 or v16.15.0
+
 ## 2.0.0 (2022-04-23)
 
 ### Potentially Breaking Changes
