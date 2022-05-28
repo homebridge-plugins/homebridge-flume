@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 2.0.3 (2022-05-28)
+
+### Changed
+
+- More fixes and refactoring
+
 ## 2.0.2 (2022-05-28)
 
 ### Changed
