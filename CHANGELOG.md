@@ -2,6 +2,15 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## BETA
+
+### Changed
+
+- Requests for device info will occur less often, meaning requests for leak info can occur more frequently
+  - Minimum refresh interval reduced to 1 minute
+- Bump `node` recommended versions to v14.20.1 or v16.18.0 or v18.11.0
+- Updated `axios` to v1.1.3
+
 ## 2.0.7 (2022-09-25)
 
 ### Changed

@@ -58,7 +58,7 @@
         "title": "Refresh Interval",
         "type": "integer",
         "placeholder": 2,
-        "description": "Number of minutes between updates. Must be 2 or more."
+        "description": "Number of minutes between requests to Flume for device leak information. Must be 1 or more."
       }
     }
   },
