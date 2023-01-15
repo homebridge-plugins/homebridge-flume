@@ -4,6 +4,12 @@ All notable changes to homebridge-flume will be documented in this file.
 
 ⚠️ Note that Node 14 will no longer be supported after April 2023
 
+## BETA
+
+### Added
+
+- Support for shared devices (thanks [@ssmoss](https://github.com/ssmoss)!)
+
 ## 2.0.9 (2023-01-07)
 
 ### Changed
