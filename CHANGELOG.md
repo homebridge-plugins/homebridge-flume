@@ -10,6 +10,10 @@ All notable changes to homebridge-flume will be documented in this file.
 
 - Support for shared devices (thanks [@ssmoss](https://github.com/ssmoss)!)
 
+### Changed
+
+- Fix a potential login issue that might be terminating the process incorrectly
+
 ## 2.0.9 (2023-01-07)
 
 ### Changed
