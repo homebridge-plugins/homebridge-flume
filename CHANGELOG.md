@@ -2,9 +2,14 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
-⚠️ Note that Node 14 will no longer be supported after April 2023
-
 ## BETA
+
+### Breaking
+
+- Remove official support for Node 14
+- Remove option to disable plugin - this is now available in the Homebridge UI
+- Remove option for debug logging - this will be enabled when using a beta version of the plugin
+- Remove individual accessory logging options to simplify the config
 
 ### Added
 
@@ -13,6 +18,7 @@ All notable changes to homebridge-flume will be documented in this file.
 ### Changed
 
 - Fix a potential login issue that might be terminating the process incorrectly
+- Bump `node` recommended versions to v16.19.1 or v18.14.2
 
 ## 2.0.9 (2023-01-07)
 

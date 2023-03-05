@@ -39,16 +39,6 @@
         "required": true,
         "description": "Your Flume Client Secret, found at https://portal.flumetech.com."
       },
-      "debug": {
-        "title": "Debug Logging",
-        "type": "boolean",
-        "description": "Global logging setting for the plugin. If true then debug information will be added to the log."
-      },
-      "disablePlugin": {
-        "title": "Disable Plugin",
-        "type": "boolean",
-        "description": "If true, the plugin will remove all accessories and not load the plugin on restart."
-      },
       "disableDeviceLogging": {
         "type": "boolean",
         "title": "Disable Device Logging",
@@ -66,7 +56,7 @@
     {
       "type": "fieldset",
       "title": "Required Settings",
-      "items": ["username", "password", "clientId", "clientSecret", "debug", "disablePlugin"]
+      "items": ["username", "password", "clientId", "clientSecret"]
     },
     {
       "type": "fieldset",
