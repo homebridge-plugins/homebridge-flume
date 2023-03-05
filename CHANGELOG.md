@@ -9,7 +9,6 @@ All notable changes to homebridge-flume will be documented in this file.
 - Remove official support for Node 14
 - Remove option to disable plugin - this is now available in the Homebridge UI
 - Remove option for debug logging - this will be enabled when using a beta version of the plugin
-- Remove individual accessory logging options to simplify the config
 
 ### Added
 
