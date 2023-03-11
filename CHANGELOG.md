@@ -2,6 +2,12 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
+## 3.0.1 (2023-03-11)
+
+### Fixed
+
+- Put `getLeakInfo()` into debug logging
+
 ## 3.0.0 (2023-03-11)
 
 ### Breaking
