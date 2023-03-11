@@ -2,7 +2,7 @@
 
 All notable changes to homebridge-flume will be documented in this file.
 
-## BETA
+## 3.0.0 (2023-03-11)
 
 ### Breaking
 
@@ -17,7 +17,7 @@ All notable changes to homebridge-flume will be documented in this file.
 ### Changed
 
 - Fix a potential login issue that might be terminating the process incorrectly
-- Bump `node` recommended versions to v16.19.1 or v18.14.2
+- Bump `node` recommended versions to v16.19.1 or v18.15.0
 
 ## 2.0.9 (2023-01-07)
 
