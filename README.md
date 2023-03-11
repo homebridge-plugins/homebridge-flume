@@ -34,7 +34,6 @@ Homebridge plugin to integrate Flume devices into HomeKit
 - [Configuration](https://github.com/bwp91/homebridge-flume/wiki/Configuration)
 - [Beta Version](https://github.com/bwp91/homebridge-flume/wiki/Beta-Version)
 - [Node Version](https://github.com/bwp91/homebridge-flume/wiki/Node-Version)
-- [Uninstallation](https://github.com/bwp91/homebridge-flume/wiki/Uninstallation)
 
 ### Help/About
 
